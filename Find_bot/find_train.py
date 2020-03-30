@@ -436,7 +436,7 @@ def get_text_messages(message):
     if not check_started(message):
         return
     chat_id = message.chat.id
-    if message.text != "1964":
+    if message.text != "password":
         admin_ask[chat_id] = False
         bot.reply_to(message, u"\u26D4 " + "Неверный пароль!")
     else:
