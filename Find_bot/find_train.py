@@ -17,7 +17,7 @@ from threadparser import ParserTrains
 from datetime import datetime
 import pytz
 
-bot = telebot.TeleBot('1042859480:AAPRPvs-rQhomoAlAvLh2gLSKUyhgwlhuwU')
+bot = telebot.TeleBot('1042859480:AAPRPvs-rQAvLh2gLwfiKSKUyhgwlhuwU')
 
 #print("Hello")
 con = psycopg2.connect(user="postgres_user", password="1", host="127.0.0.1", port="5432", database="my_postgres_db")
